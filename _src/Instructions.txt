@@ -1,0 +1,48 @@
+# Getting Started with Laravel 4
+
+
+## Instructions
+
+
+
+This archive contains the code samples for chapters 3, 4, 5 and 6.
+
+To keep the
+file size small, the vendor/ directory was not included. You will therefore
+have to fetch the dependencies for each chapter by entering the following
+ command inside of the corresponding folder:
+
+
+    $ composer install
+
+
+
+Once all the dependencies have been installed, you can start the application by
+ entering:
+
+
+    $ php artisan serve
+
+
+
+You will also have to enter
+
+
+    $ php artisan migrate --env=local
+
+    $ php artisan db:seed --env=local
+
+
+
+If you have any issues with running these commands, make sure you read through
+ Chapter 2 where the installation of Composer is described.
+
+
+Any errors can be reported on http://www.packtpub.com/support
+
+
+
+Happy coding!
+	
+
+- Raphael Saunier
